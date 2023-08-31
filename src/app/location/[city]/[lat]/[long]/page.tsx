@@ -63,7 +63,11 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
             </p>
           </div>
           <div className='m-2 mb-10'>
-            <CalloutCard message={content} />
+            <CalloutCard
+              message={
+                "Good morning, Burnaby! I'm Garen, and I'm coming to you LIVE from the AI Weather Forecast. Get ready for a quick summary of today's weather in your city. Currently, the temperature is 13.5 degrees Celsius with a gentle breeze blowing at 1.1 kilometers per hour from the south. We're experiencing Weather Code 3, which means it's partly cloudy out there. Now, let's dive into the hourly forecast. Throughout the day, temperatures will range from a high of 20.3 degrees Celsius to a low of 13.1 degrees Celsius. We won't be seeing any snowfall, so no need to worry about grabbing your snow gear just yet. As for rain, we can expect a slight drizzle of 0.6 millimeters around 3 PM. Humidity levels will fluctuate throughout the day, starting at 66% and reaching a peak of 100% in the evening. So, be prepared for a little moisture in the air. But here's something important I want to highlight: the UV index. It's crucial to protect yourself from the sun's rays. Today's UV index will be moderate, reaching a peak of 5.35. So, make sure to wear sunscreen, put on a hat, and seek shade during peak hours to keep yourself safe. And now, for a little weather-related joke to brighten your day: Why did the scarecrow win an award? Because he was outstanding in his field! That's all for now, Burnaby! Stay tuned for more updates throughout the day. Stay safe, stay prepared, and remember to bring your umbrella just in case. This has been Garen reporting LIVE from the AI Weather Forecast. Back to you!"
+              }
+            />
           </div>
           <div className='grid grid-cols-1 xl:grid-cols-2 gap-5 m-2'>
             <StatCard
