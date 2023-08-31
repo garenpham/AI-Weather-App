@@ -4,7 +4,7 @@ AI Weather App with ChatGPT-4 is a web application that presents a chatbot power
 
 The application is built using Next.js 13.3, a full-stack React framework that supports features such as file-based metadata API, dynamic open graph images, static export for app router, and parallel routes and interception. The application also uses Tremor 2.0, a React library to facilitate the creation of dashboards, which provides modular components for displaying data and charts.
 
-The application connects to Open-Meteo API, using StepZen, a GraphQL-as-a-service platform that assists developers in building APIs fast and with less code. The application leverages GraphQL, a query language for APIs that allows clients to request exactly what they need and nothing more.
+The application connects to Open-Meteo API, using StepZen, a GraphQL-as-a-service platform that assists developers in building APIs fast and with less code. The application leverages GraphQL, a query language for APIs that allows clients to request the information.
 
 ### Technologies implemented:
 
