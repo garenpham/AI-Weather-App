@@ -8,7 +8,7 @@ The application connects to Open-Meteo API, using StepZen, a GraphQL-as-a-servic
 
 ### Technologies implemented:
 
-<img align="left" alt="Next.js" height="24px" width="24px" src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png" />
 <img align="left" alt="GraphQL" height="24px" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png" />
 <img align="left" alt="TypeScript" height="24px" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" />
 <img align="left" alt="VSCode" height="24px" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/640px-Visual_Studio_Code_1.35_icon.svg.png" />
+<img align="left" alt="Next.js" height="24px" width="24px" src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png" />
