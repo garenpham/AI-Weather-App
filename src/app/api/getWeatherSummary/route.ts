@@ -1,4 +1,4 @@
-import openai from '@/openai'
+import openai from '@/helpers/openai'
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
