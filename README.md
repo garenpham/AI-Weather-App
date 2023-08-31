@@ -1,34 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## AI Weather Forecast Web Application
 
-## Getting Started
+AI Weather App with ChatGPT-4 is a web application that presents a chatbot powered by ChatGPT-4, a new language model created by OpenAI that can generate text that is similar to human speech. The chatbot can provide weather information and forecasts for any location in the world, as well as respond to inquiries and generate jokes about the weather.
 
-First, run the development server:
+The application is built using Next.js 13.3, a full-stack React framework that supports features such as file-based metadata API, dynamic open graph images, static export for app router, and parallel routes and interception. The application also uses Tremor 2.0, a React library to facilitate the creation of dashboards, which provides modular components for displaying data and charts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The application connects to Open-Meteo API, using StepZen, a GraphQL-as-a-service platform that assists developers in building APIs fast and with less code. The application leverages GraphQL, a query language for APIs that allows clients to request exactly what they need and nothing more.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Technologies implemented:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img align="left" alt="Next.js" height="24px" width="24px" src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png" />
+<img align="left" alt="GraphQL" height="24px" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png" />
+<img align="left" alt="TypeScript" height="24px" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" />
+<img align="left" alt="VSCode" height="24px" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/640px-Visual_Studio_Code_1.35_icon.svg.png" />
