@@ -34,23 +34,23 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
 
   const results: Root = data.myQuery
 
-  const dataToSend = cleanData(results, city)
+  // const dataToSend = cleanData(results, city)
 
+  // const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, {
+  //   method: 'POST',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify({
+  //     weatherData: dataToSend,
+  //   }),
+  // })
 
+  // const GPTdata = await res.json()
 
-  const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      weatherData: dataToSend,
-    }),
-  })
+  // const { content } = GPTdata
 
-  const GPTdata = await res.json()
-  
-  const { content } = GPTdata
+  const content = 'AI Weather Forecaster is currently in maintenance...'
 
   return (
     <div className='flex flex-col min-h-screen md:flex-row'>
