@@ -7,7 +7,7 @@ import TempChart from '@/components/TempChart'
 import fetchWeatherQuery from '@/graphql/queries/fetchWeatherQueries'
 import { getClient } from '@/helpers/apollo-client'
 import cleanData from '@/lib/cleanData'
-import getBasePath from '@/lib/getBasePath'
+// import getBasePath from '@/lib/getBasePath'
 import React from 'react'
 
 export const revalidate = 0
@@ -39,15 +39,18 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
   let content: string
 
   try {
-    const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        weatherData: dataToSend,
-      }),
-    })
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/getWeatherSummary`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          weatherData: dataToSend,
+        }),
+      }
+    )
 
     const GPTdata = await res.json()
     // const { content } = GPTdata
