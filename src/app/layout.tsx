@@ -24,6 +24,10 @@ export default function RootLayout({
           href='https://res.cloudinary.com/dli8bhz3z/image/upload/v1693483994/pic1_p8yotp.svg'
           sizes='any'
         />
+        <meta
+          http-equiv='Content-Security-Policy'
+          content='upgrade-insecure-requests'
+        />
       </head>
       <Suspense fallback={<Loading />}>
         <body className={inter.className}>{children}</body>
