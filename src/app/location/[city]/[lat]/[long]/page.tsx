@@ -36,7 +36,6 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
 
   const dataToSend = cleanData(results, city)
 
-  let content: string
 
 
   const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, {
@@ -50,11 +49,8 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
   })
 
   const GPTdata = await res.json()
-  if (GPTdata.status === 500) {
-    content = GPTdata.error
-  } else {
-    content = GPTdata.content
-  }
+  
+  const { content } = GPTdata
 
   return (
     <div className='flex flex-col min-h-screen md:flex-row'>
